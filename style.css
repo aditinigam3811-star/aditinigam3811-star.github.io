@@ -439,3 +439,89 @@ footer {
         gap: 10px;
     }
 }
+/* ---------- RESUME CONTENT ---------- */
+
+.experience-card ul {
+    padding-left: 18px;
+    margin-top: 20px;
+}
+
+.experience-card li {
+    margin-bottom: 12px;
+    color: #555555;
+    font-size: 15px;
+}
+
+.experience-card li::marker {
+    color: #8b5cf6;
+}
+
+.project-card .project-tag {
+    margin-bottom: 18px;
+}
+
+
+/* ---------- DOMAIN CARDS ---------- */
+
+.interest-grid strong {
+    display: inline-block;
+    margin-bottom: 8px;
+}
+
+
+/* ---------- CONTACT ---------- */
+
+.contact-info {
+    font-size: 20px;
+    color: #cccccc;
+    margin: 8px 0;
+}
+
+
+/* ---------- PROFILE IMAGE ---------- */
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 180px 180px 20px 20px;
+}
+
+
+/* ---------- BETTER PROJECT CARDS ---------- */
+
+.project-card {
+    min-height: 430px;
+}
+
+.project-card p {
+    margin-bottom: 12px;
+}
+
+
+/* ---------- EXPERIENCE CARDS ---------- */
+
+.experience-card {
+    min-height: 500px;
+}
+
+
+/* ---------- MOBILE IMPROVEMENTS ---------- */
+
+@media (max-width: 900px) {
+
+    .hero-image {
+        width: 300px;
+        height: 380px;
+    }
+
+    .experience-card {
+        min-height: auto;
+    }
+
+    .project-card {
+        min-height: auto;
+    }
+
+}
